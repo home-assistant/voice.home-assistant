@@ -8,5 +8,9 @@
 module.exports = {
   Overview: ["overview"],
   Intents: ["intents", "intents/matching"],
-  Contributing: ["contributing"],
+  Contributing: [
+    "contributing",
+    "contributing/language-leaders",
+    "contributing/intent-sentences",
+  ],
 };
