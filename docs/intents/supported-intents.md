@@ -30,3 +30,5 @@ The following intents are supported by Home Assistant:
   )
 }
 </>
+
+[This page is automatically generated based on the Intents repository.](https://github.com/home-assistant/intents/blob/main/intents.yaml)

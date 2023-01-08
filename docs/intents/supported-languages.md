@@ -46,3 +46,5 @@ If you don't see your language below, [help us translate!](../contributing/inten
     </tbody>
   </table>
 </>
+
+[This page is automatically generated based on the Intents repository.](https://github.com/home-assistant/intents/blob/main/languages.yaml)
