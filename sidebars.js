@@ -10,6 +10,7 @@ module.exports = {
   Intents: [
     "intents",
     "intents/matching",
+    "intents/matching-syntax",
     "intents/supported-intents",
     "intents/supported-languages",
   ],
