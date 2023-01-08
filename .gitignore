@@ -5,7 +5,7 @@
 /build
 
 # Intent repo
-intents
+/intents
 
 # Generated files
 .docusaurus

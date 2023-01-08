@@ -7,7 +7,12 @@
 
 module.exports = {
   Overview: ["overview"],
-  Intents: ["intents", "intents/matching"],
+  Intents: [
+    "intents",
+    "intents/matching",
+    "intents/supported-intents",
+    "intents/supported-languages",
+  ],
   Contributing: [
     "contributing",
     "contributing/language-leaders",
