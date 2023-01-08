@@ -61,8 +61,6 @@ lists:
       - "white"
       - "red"
       - "orange"
-      - "green"
-      - "blue"
 ```
 
 Intent handlers in Home Assistant expect color to be defined in English. To allow other languages to define colors, lists support the in-out format. This allows you to define a list of values in the native language, but the intent handler will receive the values in English.
@@ -71,16 +69,10 @@ Intent handlers in Home Assistant expect color to be defined in English. To allo
 lists:
   color:
     values:
-      - in: "wit"
-        out: "white"
       - in: "rood"
         out: "red"
       - in: "oranje"
         out: "orange"
-      - in: "groen"
-        out: "green"
-      - in: "blauw"
-        out: "blue"
 ```
 
 A list can also be a range of numbers. This is useful for defining a range of brightness values or temperature.
