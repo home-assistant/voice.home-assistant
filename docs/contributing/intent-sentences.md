@@ -24,9 +24,3 @@ New languages should be based on the output of `python3 -m script.intentfest add
 Limit the first contribution to translations of the error sentences in `_common.yaml` and adding sentences and tests for the `homeassistant` domain.
 
 If you are unable to run the add_language script locally, ask in Discord to have a maintainer run it for you.
-
-## Fixtures
-
-Make sure that fixtures do not have generic names like "garage door" or "curtains". Instead, use a name that is unique to the fixture. For example, name it "garage door left" or "curtains left".
-
-This is necessary to allow defining matching sentences based on the generic names, like "open the garage door".
