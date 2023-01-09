@@ -12,6 +12,7 @@ module.exports = {
     "intents/matching",
     "intents/matching-syntax",
     "intents/test-syntax",
+    "intents/home-assistant-api",
     "intents/supported-intents",
     "intents/supported-languages",
   ],
