@@ -1,0 +1,14 @@
+name: Nightly
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+  steps:
+    - name: Trigger build
+      run: curl -X POST -d {} ${{ secrets.NIGHTLY_NETLIFY_DEPLOY_URL }}
