@@ -1,0 +1,16 @@
+# These redirects are handled by Netlify
+# This site is deprecated. Forward all URLs
+
+/ https://developers.home-assistant.io/docs/voice/overview
+/docs/overview https://developers.home-assistant.io/docs/voice/overview
+
+/docs/intents https://developers.home-assistant.io/docs/intent_index
+/docs/intents/matching https://developers.home-assistant.io/docs/voice/intent-recognition/
+/docs/intents/matching-syntax https://developers.home-assistant.io/docs/voice/intent-recognition/template-sentence-syntax
+/docs/intents/test-syntax https://developers.home-assistant.io/docs/voice/intent-recognition/test-syntax
+/docs/intents/home-assistant-api https://developers.home-assistant.io/docs/voice/intents/
+/docs/intents/supported-intents https://developers.home-assistant.io/docs/voice/intents/
+/docs/intents/supported-languages
+/docs/contributing https://developers.home-assistant.io/docs/voice/intent-recognition/contributing
+/docs/contributing/language-leaders https://developers.home-assistant.io/docs/voice/language-leaders
+/docs/contributing/intent-sentences https://developers.home-assistant.io/docs/voice/intent-recognition/contributing

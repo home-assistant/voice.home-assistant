@@ -12,4 +12,4 @@
   publish = "build"
 
   # Default build command.
-  command = "script/bootstrap && npm run build"
+  command = "mkdir build && cp _redirects build"
