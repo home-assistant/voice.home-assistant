@@ -2,6 +2,8 @@
 
 # Home Assistant Voice Portal
 
+# Deprecated. This site has been merged into https://github.com/home-assistant/developers.home-assistant/tree/master/docs/voice
+
 This is the source for the [Voice Portal](https://voice.home-assistant.io).
 
 ## Updating the docs
